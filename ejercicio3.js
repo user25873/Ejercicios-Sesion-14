@@ -1,0 +1,11 @@
+let entradas1 = +prompt("Ingresa cantidad de entradas General")
+let entradas2 = +prompt("Ingresa cantidad de entradas Mayores de 65")
+let entradas3 = +prompt("Ingresa cantidad de entradas Menores de Edad")
+
+document.write(`El monto recaudado por Entrada General es ${entradas1*150} soles`)
+document.write("<br>")
+document.write(`El monto recaudado por Entrada Mayores de 65 es ${entradas2*50} soles`)
+document.write("<br>")
+document.write(`El monto recaudado por Entrada Menores de Edad es ${entradas3*80} soles`)
+document.write("<br>")
+document.write(`El monto recaudado en TOTAL es ${entradas1*150 + entradas2*50 + entradas3*80} soles`)
